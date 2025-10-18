@@ -79,7 +79,7 @@ def player_move(player):
         return 
     
     updated_flag = False
-    for row in range(rows-1, 0, -1):
+    for row in range(rows-1, -1, -1):
         if(game[row][column-1] == empty):
             game[row][column-1] = coin
             updated_flag = True
