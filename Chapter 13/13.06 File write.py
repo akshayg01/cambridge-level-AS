@@ -1,0 +1,6 @@
+file_object = open('D:\\workspace\\cambridge-level-AS\\Chapter 13\\test2.txt', 'a')
+#print(file_object.readline())
+#print(file_object.readlines())
+file_object.write("hello I am writting in new file.. ")
+file_object.writelines(["hi\n", "hello\n", "good.. \n"])
+file_object.close()
